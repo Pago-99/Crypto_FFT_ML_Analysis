@@ -110,7 +110,7 @@ Each notebook includes narrative, code, and inline plots. No additional configur
 ## Author
 
 Yechan Jeong  
-Seoul National University  
+Seoul National University Department of Economics
 GitHub: [Pago-99](https://github.com/Pago-99)
 
 ## License

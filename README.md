@@ -24,7 +24,7 @@ Cryptocurrency markets exhibit noisy, non-stationary behavior, especially at mil
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate  # macOS/Linux
-   .\.venv\Scripts\activate  # Windows
+   .\\.venv\\Scripts\\activate  # Windows
    ```
 3. **Install runtime dependencies**
    ```bash
@@ -36,6 +36,14 @@ Cryptocurrency markets exhibit noisy, non-stationary behavior, especially at mil
    ```
 
 This setup ensures both notebook execution and module imports work correctly.
+
+## Running the Notebooks
+
+Launch Jupyter Notebook from the project root:
+```bash
+jupyter notebook
+```
+Then navigate into the `notebooks/` directory and run each `.ipynb` file interactively.
 
 ## Project Structure
 
@@ -49,7 +57,8 @@ Crypto_FFT_ML_Analysis/
 ├── notebooks/                 # EDA, FFT, ML, Clustering notebooks
 ├── data/                      # Saved feature matrices (X_fft.npy)
 ├── figures/                   # (Optional) exported plot images
-├── requirements.txt
+├── setup.py                   # Project packaging and editable install
+├── requirements.txt           # Runtime dependencies
 ├── .gitignore
 └── README.md
 ```
@@ -66,18 +75,10 @@ Crypto_FFT_ML_Analysis/
 
 Refer to each notebook for detailed code, plots, and explanations.
 
-## Running the Notebooks
-
-Once dependencies are installed and the package is in editable mode, launch Jupyter Notebook from the project root:
-```bash
-jupyter notebook
-```
-This will open a browser, where you can navigate into the `notebooks/` directory and run each `.ipynb` file interactively.
-
 ## Author
 
 Yechan Jeong  
-Seoul National University  
+Department of Economics, Seoul National University  
 GitHub: [Pago-99](https://github.com/Pago-99)
 
 ## License

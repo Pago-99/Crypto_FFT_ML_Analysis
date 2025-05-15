@@ -66,6 +66,14 @@ Crypto_FFT_ML_Analysis/
 
 Refer to each notebook for detailed code, plots, and explanations.
 
+## Running the Notebooks
+
+Once dependencies are installed and the package is in editable mode, launch Jupyter Notebook from the project root:
+```bash
+jupyter notebook
+```
+This will open a browser, where you can navigate into the `notebooks/` directory and run each `.ipynb` file interactively.
+
 ## Author
 
 Yechan Jeong  

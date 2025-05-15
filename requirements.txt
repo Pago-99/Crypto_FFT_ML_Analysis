@@ -1,0 +1,13 @@
+requests
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+jupyter
+notebook
+ipykernel
+python-dotenv
+pytest
+websocket-client
+urllib3
